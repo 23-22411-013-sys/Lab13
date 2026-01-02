@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# AWS credentials
+.aws/
+aws/
+
+# Temporary / downloaded files
+awscliv2.zip
+s3_state.json
+
+# OS / editor
+.DS_Store
